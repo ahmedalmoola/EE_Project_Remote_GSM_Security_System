@@ -1,0 +1,1297 @@
+[
+    {
+        "id": "11045ce7088f75fb",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e49182792ef4899a",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b35d2df3b4391a62",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "f1a2366f.a829f8",
+        "type": "ui_group",
+        "name": "Update number",
+        "tab": "3e42440f.5b487c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3e42440f.5b487c",
+        "type": "ui_tab",
+        "name": "Tab1",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a8101125b47a339a",
+        "type": "ui_tab",
+        "name": "1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a312bb8e.67b4",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard"
+    },
+    {
+        "id": "d9bf7560.df5e58",
+        "type": "ui_tab",
+        "name": "tesss",
+        "icon": "dashboard",
+        "order": 9,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8a985541b24c2028",
+        "type": "remote-config",
+        "name": "Node-RED UI",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "keh8djcamv9ey5v0qac94xoivce5t108btdnd6hw4fhvsh8u5qss6xbg4xg7yqr7",
+        "server": "nodered02.remote-red.com",
+        "region": "de"
+    },
+    {
+        "id": "814abf9bf9d8c2f2",
+        "type": "ui_tab",
+        "name": "Temp",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8fd16b0ad59d437c",
+        "type": "ui_group",
+        "name": "CPU Temp",
+        "tab": "814abf9bf9d8c2f2",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3d6fa582.03d8fa",
+        "type": "ui_tab",
+        "z": "11045ce7088f75fb",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": "1"
+    },
+    {
+        "id": "36db53ee4c7faefc",
+        "type": "ui_group",
+        "name": "Camera",
+        "tab": "3e42440f.5b487c",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c1187707c334a200",
+        "type": "function",
+        "z": "11045ce7088f75fb",
+        "name": "take data",
+        "func": "var data = context.get(\"data\") || 0;\n\nif(msg.topic === \"text\"){\n    data = msg.payload;\n    context.set(\"data\",data);\n    //if no output is needed while writting, stop the flow right here\n    return\n}\nif(msg.topic === \"save\"){\n    msg.payload = data;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 400,
+        "wires": [
+            [
+                "8197479a3b0ae361",
+                "a5e46c071d5ec2f6",
+                "90ddf841cb70e0b5"
+            ]
+        ]
+    },
+    {
+        "id": "8197479a3b0ae361",
+        "type": "json",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": false,
+        "x": 430,
+        "y": 280,
+        "wires": [
+            [
+                "5d6abdeefa0fa759"
+            ]
+        ]
+    },
+    {
+        "id": "5d6abdeefa0fa759",
+        "type": "file",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "filename": "/home/pi/tflite1/Sample_TFLite_model/phone.txt",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 700,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "09317c94a78d9e32",
+        "type": "ui_text_input",
+        "z": "11045ce7088f75fb",
+        "name": "Phone Number",
+        "label": "Phone Number",
+        "tooltip": "",
+        "group": "f1a2366f.a829f8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "task1",
+        "sendOnBlur": true,
+        "topicType": "str",
+        "x": 120,
+        "y": 180,
+        "wires": [
+            [
+                "c1187707c334a200"
+            ]
+        ]
+    },
+    {
+        "id": "a5e46c071d5ec2f6",
+        "type": "ui_button",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "group": "f1a2366f.a829f8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Enter ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "Red",
+        "className": "",
+        "icon": "",
+        "payload": "msg",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 450,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "90ddf841cb70e0b5",
+        "type": "debug",
+        "z": "11045ce7088f75fb",
+        "name": "Take Data",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "320668f66fd9cbd5",
+        "type": "exec",
+        "z": "11045ce7088f75fb",
+        "command": "sudo shutdown -h now",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Shutdown the Pi",
+        "x": 340,
+        "y": 680,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "80facd28912f34df",
+        "type": "ui_button",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "group": "f1a2366f.a829f8",
+        "order": 0,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "label": "shutdown",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 90,
+        "y": 680,
+        "wires": [
+            [
+                "320668f66fd9cbd5"
+            ]
+        ]
+    },
+    {
+        "id": "7bedf8f577c7d1b5",
+        "type": "ui_button",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "group": "f1a2366f.a829f8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Stop Detect",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "yes",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 100,
+        "y": 780,
+        "wires": [
+            [
+                "15eb37fa716bfb44"
+            ]
+        ]
+    },
+    {
+        "id": "15eb37fa716bfb44",
+        "type": "file",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "filename": "/home/pi/tflite1/Sample_TFLite_model/terminate.txt",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 450,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "feeef69ba51f4f4e",
+        "type": "debug",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "5c027b4cb794c27c",
+        "type": "exec",
+        "z": "11045ce7088f75fb",
+        "command": "/home/pi/TF.sh",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 330,
+        "y": 940,
+        "wires": [
+            [
+                "2c3b8123ae1e4b8c",
+                "eefc2cc5c4f8e746",
+                "feeef69ba51f4f4e"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "472c07fc20b4e191",
+        "type": "ui_button",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "group": "f1a2366f.a829f8",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start detect",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 900,
+        "wires": [
+            [
+                "5c027b4cb794c27c",
+                "aa4cdf99b28d932a"
+            ]
+        ]
+    },
+    {
+        "id": "3ff7c5247af87779",
+        "type": "change",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Waiting to start system",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 920,
+        "wires": [
+            [
+                "eefc2cc5c4f8e746"
+            ]
+        ]
+    },
+    {
+        "id": "2c3b8123ae1e4b8c",
+        "type": "delay",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "4",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 520,
+        "y": 920,
+        "wires": [
+            [
+                "3ff7c5247af87779"
+            ]
+        ]
+    },
+    {
+        "id": "aa4cdf99b28d932a",
+        "type": "delay",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 220,
+        "y": 1020,
+        "wires": [
+            [
+                "12b997406d4ffa39"
+            ]
+        ]
+    },
+    {
+        "id": "12b997406d4ffa39",
+        "type": "change",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "System is running",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 260,
+        "y": 1120,
+        "wires": [
+            [
+                "eefc2cc5c4f8e746"
+            ]
+        ]
+    },
+    {
+        "id": "ae9bdfa5eb7935a4",
+        "type": "exec",
+        "z": "11045ce7088f75fb",
+        "command": "vcgencmd measure_volts core",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 390,
+        "y": 1360,
+        "wires": [
+            [
+                "a3d032f71608626b"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "a3d032f71608626b",
+        "type": "function",
+        "z": "11045ce7088f75fb",
+        "name": "TEST",
+        "func": "var str = msg.payload;\nmsg.payload = str.substring(5,11);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 1460,
+        "wires": [
+            [
+                "786c993863f24153",
+                "fa0808b35a2802c5",
+                "5b9c1b6d32077638",
+                "86f5cfbf51665762"
+            ]
+        ]
+    },
+    {
+        "id": "786c993863f24153",
+        "type": "debug",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "b8c4917e0a1f39f5",
+        "type": "remote-access",
+        "z": "11045ce7088f75fb",
+        "confignode": "8a985541b24c2028",
+        "name": "",
+        "verbose": 0,
+        "x": 100,
+        "y": 1540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "13432783ae279d97",
+        "type": "remote-notification",
+        "z": "11045ce7088f75fb",
+        "confignode": "8a985541b24c2028",
+        "name": "",
+        "notificationTitle": "payload.title",
+        "notificationTitleType": "msg",
+        "notificationBody": "payload.body",
+        "notificationBodyType": "msg",
+        "notificationSound": "default",
+        "notificationSoundComputed": "payload.sound",
+        "notificationSoundComputedType": "msg",
+        "output": 1,
+        "x": 810,
+        "y": 1540,
+        "wires": [
+            [
+                "37387adfd2e9c72f"
+            ]
+        ]
+    },
+    {
+        "id": "37387adfd2e9c72f",
+        "type": "debug",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "f491b9f209e3dd33",
+        "type": "change",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"title\":\"Low Voltage\",\"body\":\"The Raspberry Pi is not under Voltage\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 1520,
+        "wires": [
+            [
+                "13432783ae279d97"
+            ]
+        ]
+    },
+    {
+        "id": "71605e5777a2ac32",
+        "type": "ui_toast",
+        "z": "11045ce7088f75fb",
+        "position": "top right",
+        "displayTime": "5",
+        "highlight": "red",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 590,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "fa0808b35a2802c5",
+        "type": "function",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "func": "num = parseFloat(msg.payload);\nif(num >=0.80 && num <=1.25)\n    msg.payload = \"Raspberry Pi is not under Voltage\";\nelse\n    msg.payload = \"Rasberry Pi is under Voltage\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1640,
+        "wires": [
+            [
+                "71605e5777a2ac32"
+            ]
+        ]
+    },
+    {
+        "id": "5b9c1b6d32077638",
+        "type": "function",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "func": "num = parseFloat(msg.payload);\nif(num >= 0.80 && num <=1.25)\n    return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1500,
+        "wires": [
+            [
+                "f491b9f209e3dd33"
+            ]
+        ]
+    },
+    {
+        "id": "86f5cfbf51665762",
+        "type": "function",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "func": "num = parseFloat(msg.payload);\nif(num < 0.80 || num > 1.25)\n    return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1540,
+        "wires": [
+            [
+                "2392a1b3af01f5e4"
+            ]
+        ]
+    },
+    {
+        "id": "2392a1b3af01f5e4",
+        "type": "change",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"title\":\"Low Voltage\",\"body\":\"Rapsberry Pi is under Voltage\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 1580,
+        "wires": [
+            [
+                "13432783ae279d97"
+            ]
+        ]
+    },
+    {
+        "id": "eefc2cc5c4f8e746",
+        "type": "ui_text",
+        "z": "11045ce7088f75fb",
+        "group": "f1a2366f.a829f8",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 860,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "ce01f2df82359240",
+        "type": "inject",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 1720,
+        "wires": [
+            [
+                "0a1f789366de854d"
+            ]
+        ]
+    },
+    {
+        "id": "0a1f789366de854d",
+        "type": "exec",
+        "z": "11045ce7088f75fb",
+        "command": "vcgencmd measure_temp",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "temp",
+        "x": 300,
+        "y": 1760,
+        "wires": [
+            [
+                "3348c8ec4cc08ef6"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3348c8ec4cc08ef6",
+        "type": "function",
+        "z": "11045ce7088f75fb",
+        "name": "CPU T.",
+        "func": "str = msg.payload;\nmsg.payload = str.substring(5,9);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1860,
+        "wires": [
+            [
+                "c86bed21247c6a16",
+                "f82ed5419ada44f3"
+            ]
+        ]
+    },
+    {
+        "id": "c86bed21247c6a16",
+        "type": "ui_gauge",
+        "z": "11045ce7088f75fb",
+        "name": "CPU Temp",
+        "group": "8fd16b0ad59d437c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "80",
+        "colors": [
+            "#44ab44",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 600,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "f82ed5419ada44f3",
+        "type": "ui_chart",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "group": "8fd16b0ad59d437c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 600,
+        "y": 1960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a914bfa114be5b93",
+        "type": "ui_button",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "group": "f1a2366f.a829f8",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Check Rasp Voltage",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 1360,
+        "wires": [
+            [
+                "ae9bdfa5eb7935a4"
+            ]
+        ]
+    },
+    {
+        "id": "2322a30e2021cb27",
+        "type": "file in",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "filename": "/home/pi/tflite1/Sample_TFLite_model/detect.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 230,
+        "y": 2040,
+        "wires": [
+            [
+                "7751417b26146446"
+            ]
+        ]
+    },
+    {
+        "id": "da0210c17326df1f",
+        "type": "debug",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "7751417b26146446",
+        "type": "function",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "func": "if (msg.payload === \"person\")\n    return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 2120,
+        "wires": [
+            [
+                "636b961890cb303e"
+            ]
+        ]
+    },
+    {
+        "id": "636b961890cb303e",
+        "type": "change",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"title\":\"Detect\",\"body\":\"Person is in the area\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 200,
+        "y": 2200,
+        "wires": [
+            [
+                "1f02b64411070c5e"
+            ]
+        ]
+    },
+    {
+        "id": "1f02b64411070c5e",
+        "type": "remote-notification",
+        "z": "11045ce7088f75fb",
+        "confignode": "8a985541b24c2028",
+        "name": "",
+        "notificationTitle": "payload.title",
+        "notificationTitleType": "msg",
+        "notificationBody": "payload.body",
+        "notificationBodyType": "msg",
+        "notificationSound": "default",
+        "notificationSoundComputed": "payload.sound",
+        "notificationSoundComputedType": "msg",
+        "output": 1,
+        "x": 420,
+        "y": 2300,
+        "wires": [
+            [
+                "da0210c17326df1f"
+            ]
+        ]
+    },
+    {
+        "id": "30d36140d19bb179",
+        "type": "ui_template",
+        "z": "11045ce7088f75fb",
+        "group": "36db53ee4c7faefc",
+        "name": "",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "format": "<iframe src=\"https://g1.ipcamlive.com/player/player.php?alias=6159283a01099&skin=white\" width=\"320px\" height=\"240px\" frameborder=\"0\" allowfullscreen></iframe> \n\n \n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 120,
+        "y": 2380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "02d3a2f2edef8e85",
+        "type": "file in",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "filename": "/home/pi/tflite1/Sample_TFLite_model/detect.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 230,
+        "y": 2480,
+        "wires": [
+            [
+                "c6ba0bb6a91a36a0",
+                "15d77d8f4cb1d3e0"
+            ]
+        ]
+    },
+    {
+        "id": "c6ba0bb6a91a36a0",
+        "type": "function",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "func": "if (msg.payload == \"person\")\n    return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 2580,
+        "wires": [
+            [
+                "45dceedd15f70f15"
+            ]
+        ]
+    },
+    {
+        "id": "15d77d8f4cb1d3e0",
+        "type": "trigger",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "30",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "\"person\"",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 240,
+        "y": 2640,
+        "wires": [
+            [
+                "2923a6bd9f37484a"
+            ]
+        ]
+    },
+    {
+        "id": "45dceedd15f70f15",
+        "type": "change",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"title\":\"Person detect\",\"body\":\"Person is in the area\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 160,
+        "y": 2800,
+        "wires": [
+            [
+                "cffb849835f6db45"
+            ]
+        ]
+    },
+    {
+        "id": "2923a6bd9f37484a",
+        "type": "file",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "filename": "/home/pi/tflite1/Sample_TFLite_model/detect.txt",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 550,
+        "y": 2920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2e54ea32262df593",
+        "type": "inject",
+        "z": "11045ce7088f75fb",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 2560,
+        "wires": [
+            [
+                "02d3a2f2edef8e85"
+            ]
+        ]
+    },
+    {
+        "id": "cffb849835f6db45",
+        "type": "remote-notification",
+        "z": "11045ce7088f75fb",
+        "confignode": "8a985541b24c2028",
+        "name": "",
+        "notificationTitle": "payload.title",
+        "notificationTitleType": "msg",
+        "notificationBody": "payload.body",
+        "notificationBodyType": "msg",
+        "notificationSound": "default",
+        "notificationSoundComputed": "payload.sound",
+        "notificationSoundComputedType": "msg",
+        "output": 1,
+        "x": 450,
+        "y": 2740,
+        "wires": [
+            []
+        ]
+    }
+]

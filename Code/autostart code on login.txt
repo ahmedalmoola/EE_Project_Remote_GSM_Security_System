@@ -1,0 +1,12 @@
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+
+add this line to the bottom
+
+@lxterminal -e /home/pi/bin/TFscript &
+
+save and exit, and reboot
+
+
+
+
+
